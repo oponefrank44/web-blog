@@ -1,0 +1,15 @@
+
+<%- include("../partials/header.ejs") %>
+
+<div id="viewpage">
+  <h2>make a post</h2>
+  <form action="/compose" method="post">
+    
+    <input name="title" class="feedback-input "   placeholder="title" />
+    <textarea name="content" class="feedback-input " placeholder="paragrph"> </textarea>
+    <input type="submit" value="SUBMIT" />
+  </form>
+</div>
+ 
+
+<%- include("../partials/footer.ejs") %>

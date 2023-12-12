@@ -1,0 +1,14 @@
+<%- include("../partials/header.ejs") %>
+
+<div id="viewpage">
+  <h2>Edit a post</h2>
+<form action="/update/<%= title %>" method="post">
+  
+  <textarea name="title" class="feedback-input " placeholder=""> <%= title %></textarea>
+  <textarea name="content" class="feedback-input " placeholder=""> <%= content %></textarea>
+  <input type="submit" value="SUBMIT" />
+</form>
+</div>
+ 
+
+<%- include("../partials/footer.ejs") %>
